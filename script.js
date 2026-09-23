@@ -240,8 +240,8 @@ document.addEventListener("DOMContentLoaded", () => {
     ...document.querySelectorAll(".timeline-item"),
     ...document.querySelectorAll(".project-card"),
     ...document.querySelectorAll(".contact-card-item"),
-    document.querySelector(".about-image-container"),
-    document.querySelector(".about-content"),
+    document.querySelector(".hero-photo-card"),
+    document.querySelector(".about-compact-container"),
     document.querySelector(".kpi-ownership-container"),
   ].filter(Boolean);
 
